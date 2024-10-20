@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+</head>
+<body>
+    <h1>Калькулятор</h1>
+    <form action="/calculate" method="get">
+        <input type="number" name="a" placeholder="Число A" required>
+        <select name="operation">
+            <option value="add">+</option>
+            <option value="subtract">-</option>
+            <option value="multiply">*</option>
+            <option value="divide">/</option>
+        </select>
+        <input type="number" name="b" placeholder="Число B" required>
+        <button type="submit">Обчислити</button>
+    </form>
+</body>
+</html>
